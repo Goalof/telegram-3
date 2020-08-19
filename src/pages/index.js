@@ -115,7 +115,7 @@ export default (() => {
 		<Section background="#0E1317" padding="30px 0 0px">
 			<Stack margin="-16px -16px 16px -16px">
 				{"    "}
-				<StackItem width="40%" display="flex" padding="0px 0px" sm-display="none">
+				<StackItem width="35%" display="flex" padding="0px 0px" sm-display="none">
 					{"        "}
 					<Box
 						background="rgba(0, 0, 0, 0) url(https://ukit.top/quarkly/Square_500x500_3.png) 100% 25% /cover no-repeat scroll padding-box"
@@ -126,11 +126,10 @@ export default (() => {
 						right="35px"
 						top="136px"
 						border-radius="12px"
-						box-shadow="0 10px 19px 0 rgba(215, 215, 233, 0.13)"
 					/>
 					{"    "}
 				</StackItem>
-				<StackItem width="60%" display="flex" padding="16px 0px 13px" sm-width="100%">
+				<StackItem width="65%" display="flex" padding="16px 0px 13px" sm-width="100%">
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
 					<Text
 						font="normal 500 35px/1.5 --fontFamily-googleSourceSansPro"
@@ -163,7 +162,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section background="#07080C" padding="24px 0 33px 0">
+		<Section background="#0E1317" padding="24px 0 33px 0" sm-padding="24px 0 0px 0">
 			<Box
 				display="flex"
 				flex-direction="row"
@@ -207,8 +206,10 @@ export default (() => {
 					margin="0px 0px 30px 0px"
 					padding="16px 16px 16px 16px"
 					lg-width="32%"
-					sm-width="100%"
+					sm-width="50%"
 					md-width="50%"
+					sm-margin="0px 0px 0px 0px"
+					sm-padding="16px 8px 16px 8px"
 				>
 					<Override
 						slot="StackItemContent"
@@ -222,6 +223,8 @@ export default (() => {
 						justify-content="center"
 						width="50%"
 						md-padding="0px 5px 0px 5px"
+						sm-margin="0px 0px 10px 0px"
+						sm-padding="0px 3px 0px 3px"
 					/>
 					{"        "}
 					<Text font="normal 600 25px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#000000">
@@ -236,7 +239,13 @@ export default (() => {
 					>
 						В каждой из 5 категорий
 					</Text>
-					<Text font="normal 600 55px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#000000">
+					<Text
+						font="normal 600 55px/1.5 --fontFamily-googleSourceSansPro"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="#000000"
+						sm-font="normal 600 40px/1.5 --fontFamily-googleSourceSansPro"
+					>
 						$100
 					</Text>
 					{"    "}
@@ -247,8 +256,10 @@ export default (() => {
 					padding="16px 16px 16px 16px"
 					margin="0px 0px 30px 0px"
 					lg-width="30%"
-					sm-width="100%"
+					sm-width="50%"
 					md-width="50%"
+					sm-margin="0px 0px 0px 0px"
+					sm-padding="16px 8px 16px 8px"
 				>
 					<Override
 						slot="StackItemContent"
@@ -262,6 +273,8 @@ export default (() => {
 						justify-content="center"
 						width="50%"
 						md-padding="0px 5px 0px 5px"
+						sm-margin="0px 0px 10px 0px"
+						sm-padding="0px 3px 0px 3px"
 					/>
 					{"        "}
 					<Text font="normal 600 25px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#000000">
@@ -277,7 +290,13 @@ export default (() => {
 					>
 						В каждой из 5 категорий
 					</Text>
-					<Text font="normal 600 55px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#000000">
+					<Text
+						font="normal 600 55px/1.5 --fontFamily-googleSourceSansPro"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="#000000"
+						sm-font="normal 600 40px/1.5 --fontFamily-googleSourceSansPro"
+					>
 						$50
 					</Text>
 					{"    "}
@@ -289,6 +308,7 @@ export default (() => {
 					margin="0px 0px 30px 0px"
 					sm-width="100%"
 					md-width="100%"
+					sm-padding="10px 8px 8px 8px"
 				>
 					<Override
 						slot="StackItemContent"
@@ -301,14 +321,14 @@ export default (() => {
 						align-items="center"
 						justify-content="center"
 						width="50%"
-						padding="0px 30px 34px 30px"
+						padding="0px 30px 30px 30px"
 						md-padding="0px 10px 0px 10px"
 						lg-padding="0px 10px 0px 10px"
 					/>
 					{"        "}
 					<Text
 						font="normal 600 25px/1.5 --fontFamily-googleSourceSansPro"
-						margin="30px 0px 0px 0px"
+						margin="10px 0px 0px 0px"
 						display="inline-block"
 						color="#000000"
 						lg-text-align="center"
@@ -318,7 +338,13 @@ export default (() => {
 						+ доп. вознаграждение
 						<br />
 					</Text>
-					<Text font="normal 400 16px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 10px 0px" display="inline-block" color="#000000">
+					<Text
+						font="normal 400 16px/1.5 --fontFamily-googleSourceSansPro"
+						margin="0px 0px 10px 0px"
+						display="inline-block"
+						color="#000000"
+						sm-margin="0px 0px 10px 0px"
+					>
 						Для всех категорий
 					</Text>
 					<Text
@@ -334,12 +360,9 @@ export default (() => {
 				</StackItem>
 				{"    "}
 			</Stack>
-			<Stack>
-				{"        "}
-			</Stack>
 		</Section>
 		<Section
-			background="#000D19"
+			background="#0E1317"
 			padding="20px 0 20px 0"
 			height="303.141px"
 			sm-height="auto"
@@ -351,7 +374,6 @@ export default (() => {
 				<StackItem width="35%" display="flex" padding="0px 0px" sm-display="none">
 					{"        "}
 					<Box
-						background="rgba(0, 0, 0, 0) url(https://ukit.top/quarkly/paren.png) 64% 100% /cover no-repeat scroll padding-box"
 						width="100%"
 						padding="0px 0px 68% 0px"
 						left="986px"
@@ -360,6 +382,7 @@ export default (() => {
 						bottom="-593px"
 						display="flex"
 						border-radius="8px"
+						background="rgba(0, 0, 0, 0) url(https://ukit.top/quarkly/paren.png) 64% 100% /cover no-repeat scroll padding-box"
 					/>
 					{"    "}
 				</StackItem>
@@ -419,6 +442,7 @@ export default (() => {
 						hover-transform="translateY(-2px)"
 						cursor="pointer"
 						align-items="center"
+						sm-margin="0px 0px 10px 0px"
 					>
 						<Icon category="fa" icon={FaTelegramPlane} margin="0px 12px 0px 0px" />
 						Telegram
