@@ -162,7 +162,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section background="#0E1317" padding="24px 0 33px 0" sm-padding="24px 0 0px 0">
+		<Section background="#22262E" padding="24px 0 33px 0" sm-padding="24px 0 0px 0">
 			<Box
 				display="flex"
 				flex-direction="row"
@@ -334,6 +334,8 @@ export default (() => {
 						lg-text-align="center"
 						md-padding="0px 0px 0px 0px"
 						text-align="center"
+						sm-font="normal 600 22px/1.5 --fontFamily-googleSourceSansPro"
+						sm-margin="0px 0px 0px 0px"
 					>
 						+ доп. вознаграждение
 						<br />
@@ -344,6 +346,7 @@ export default (() => {
 						display="inline-block"
 						color="#000000"
 						sm-margin="0px 0px 10px 0px"
+						sm-font="normal 400 15px/1.5 --fontFamily-googleSourceSansPro"
 					>
 						Для всех категорий
 					</Text>
@@ -353,6 +356,7 @@ export default (() => {
 						display="inline-block"
 						color="#000000"
 						text-align="center"
+						sm-font="normal 400 14px/1.5 --fontFamily-googleSourceSansPro"
 					>
 						получат участники, чьи компоненты попадут в библиотеку компонентов Quarkly
 					</Text>
@@ -367,6 +371,7 @@ export default (() => {
 			height="303.141px"
 			sm-height="auto"
 			lg-height="auto"
+			sm-padding="30px 0px 20px 0px"
 		>
 			<Override slot="SectionContent" sm-height="auto" lg-height="auto" />
 			<Stack margin="-16px -16px -8px -16px">
@@ -386,7 +391,13 @@ export default (() => {
 					/>
 					{"    "}
 				</StackItem>
-				<StackItem width="65%" display="flex" padding="4px 0px 16px" sm-width="100%">
+				<StackItem
+					width="65%"
+					display="flex"
+					padding="4px 0px 16px"
+					sm-width="100%"
+					sm-padding="16px 0px 16px 0px"
+				>
 					<Override
 						slot="StackItemContent"
 						align-items="flex-start"
@@ -395,6 +406,7 @@ export default (() => {
 						margin="-10px 0px 0px 0px"
 						padding="0px 0px 0px"
 						sm-align-items="center"
+						sm-padding="0px 10px 0px 10px"
 					/>
 					<Text
 						font="normal 600 38px/1.5 --fontFamily-googleSourceSansPro"
@@ -402,7 +414,7 @@ export default (() => {
 						display="inline-block"
 						color="--light"
 						lg-font="normal 500 24px/1.5 --fontFamily-sans"
-						sm-font="normal 500 23px/1.5 --fontFamily-sans"
+						sm-font="normal 500 21px/1.2 --fontFamily-sans"
 						md-font="normal 500 19px/1.5 --fontFamily-sans"
 						text-align="left"
 						sm-text-align="center"
