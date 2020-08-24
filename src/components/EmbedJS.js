@@ -13,6 +13,21 @@ const customJs = `
   gtag('config', 'UA-155063631-2');
 </script>
 
+<script>
+$(function() {
+$("#soob").on('click', function() {
+gtag('event', 'soob', { 'event_category': 'form', 'event_action': 'submit', });
+});
+</script>
+<script>
+$(function() {
+$("#gobot").on('click', function() {
+gtag('event', 'gobot', { 'event_category': 'form', 'event_action': 'submit', });
+});
+</script>
+
+
+
 `;
 
 const EmbedJS = ({

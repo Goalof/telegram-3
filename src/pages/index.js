@@ -73,6 +73,7 @@ export default (() => {
 						Переходи в Telegram за подробностями!👇
 					</Text>
 					<Link
+						id="gobot"
 						href="tg://resolve?domain=Quarkly_contestbot"
 						color="--light"
 						text-decoration-line="initial"
@@ -452,6 +453,7 @@ export default (() => {
 						Если компонент который вы создадите будет добавлен в Quarkly, мы с удовольствием укажем ваши контакты (имя и ссылку на GitHub) в описании компонента
 					</Text>
 					<Link
+						id="soob"
 						href="tg://resolve?domain=Quarkly_contestbot"
 						color="--light"
 						text-decoration-line="initial"
