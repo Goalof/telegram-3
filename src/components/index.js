@@ -1,1 +1,1 @@
-export { default as EmbedJS } from "./EmbedJS"
+export { default as EmbedHTML } from "./EmbedHTML"

@@ -450,7 +450,7 @@ export default (() => {
 						md-margin="0px 0px 10PX 0px"
 						sm-text-align="center"
 					>
-						Если компонент который вы создадите будет добавлен в Quarkly, мы с удовольствием укажем ваши контакты (имя и ссылку на GitHub) в описании компонента.
+						Если компонент который вы создадите будет добавлен в Quarkly, мы с удовольствием укажем ваши контакты (имя и ссылку на GitHub) в описании компонента
 					</Text>
 					<Link
 						id="soob"
@@ -483,6 +483,6 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Components.EmbedJS />
+		<Components.EmbedHTML />
 	</Theme>;
 });
