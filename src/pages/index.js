@@ -2,6 +2,7 @@ import React from "react";
 import theme from "theme";
 import { Theme, Image, Text, Icon, Link, Box } from "@quarkly/widgets";
 import { Override, Section, StackItem, Stack } from "@quarkly/components";
+import * as Components from "components";
 import { FaTelegramPlane } from "react-icons/fa";
 import { GiMoneyStack } from "react-icons/gi";
 export default (() => {
@@ -227,7 +228,14 @@ export default (() => {
 						sm-padding="0px 3px 0px 3px"
 					/>
 					{"        "}
-					<Text font="normal 600 25px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#000000">
+					<Text
+						font="normal 600 25px/1.5 --fontFamily-googleSourceSansPro"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="#000000"
+						sm-font="normal 600 22px/1.5 --fontFamily-googleSourceSansPro"
+						sm-margin="0px 0px 4px 0px"
+					>
 						1-е место
 					</Text>
 					<Text
@@ -236,6 +244,7 @@ export default (() => {
 						display="inline-block"
 						color="#000000"
 						md-text-align="center"
+						sm-font="normal 400 15px/1.3 --fontFamily-googleSourceSansPro"
 					>
 						В каждой из 5 категорий
 					</Text>
@@ -244,7 +253,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						color="#000000"
-						sm-font="normal 600 40px/1.5 --fontFamily-googleSourceSansPro"
+						sm-font="normal 600 36px/1.5 --fontFamily-googleSourceSansPro"
 					>
 						$100
 					</Text>
@@ -277,7 +286,14 @@ export default (() => {
 						sm-padding="0px 3px 0px 3px"
 					/>
 					{"        "}
-					<Text font="normal 600 25px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 0px 0px" display="inline-block" color="#000000">
+					<Text
+						font="normal 600 25px/1.5 --fontFamily-googleSourceSansPro"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="#000000"
+						sm-font="normal 600 22px/1.5 --fontFamily-googleSourceSansPro"
+						sm-margin="0px 0px 3px 0px"
+					>
 						2-е место
 						<br />
 					</Text>
@@ -287,6 +303,7 @@ export default (() => {
 						display="inline-block"
 						color="#000000"
 						md-text-align="center"
+						sm-font="normal 400 15px/1.3 --fontFamily-googleSourceSansPro"
 					>
 						В каждой из 5 категорий
 					</Text>
@@ -295,7 +312,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						color="#000000"
-						sm-font="normal 600 40px/1.5 --fontFamily-googleSourceSansPro"
+						sm-font="normal 600 36px/1.5 --fontFamily-googleSourceSansPro"
 					>
 						$50
 					</Text>
@@ -464,5 +481,6 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
+		<Components.EmbedJS />
 	</Theme>;
 });
